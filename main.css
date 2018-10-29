@@ -1,0 +1,179 @@
+ html, body{
+   padding: 0;
+   margin: 0;
+ }
+
+.menu, .background, .fotos, .about, .copyright, .footer,
+.form p, .fotos p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form, .flex-container, .about p,
+h1, h2, h3{
+  font-family: 'Lato', sans-serif;
+  }
+
+.background, .flex-container, .about, .footer, .copyright, .menu,
+button, .opc a, h1, h2{
+  color: #FFFFFF;
+}
+
+.menu{
+  background-color: #293E51;
+  text-align: right;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu p{
+  font-size: 30px;
+}
+
+.opc a{
+  margin: 10px;
+  font-size: 15px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.background{
+  background-color: #55BD9C;
+  align-items: center;
+  padding: 130px;
+  }
+
+img{
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+h1{
+  font-size: 70px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+.fotos{
+  background-color: #FFFFFF;
+  }
+
+.foto{
+  padding: 10px;
+}
+
+.images2nd{
+  padding-bottom: 70px;
+}
+
+.about{
+  background-color: #00C59E;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+
+.about p{
+  font-size: 40px;
+}
+
+.flex-container{
+  font-size: 20px;
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+  padding-bottom: 20px;
+}
+
+button{
+  background-color: #5AC79F;
+  border: 2px solid;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form{
+  text-align: left;
+  justify-content: center;
+  color: #87929D;
+  align-items: center;
+  display: flex;
+  padding-bottom: 50px;
+  font-size: 18px;
+}
+
+h3{
+  color: #212529;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact{
+  text-align: left;
+  border-radius: 10px;
+  color: #87929D;
+  padding-bottom: 50px;
+}
+
+input{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+textarea {
+  border-color: #F3F3F3;
+  overflow: auto;
+  outline: none;
+}
+
+.send{
+  background: #00C59E;
+}
+
+.footer, .copyright{
+  background-color: #293E51;
+  text-align: center;
+}
+
+.footer{
+  justify-content: space-around;
+  display: flex;
+  padding: 0 140px;
+  margin: 0;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer1 a{
+  font-size: 14px;
+}
+
+i{
+  font-size: 40px;
+}
+
+i:hover{
+  color: #55BD9C;
+}
+
+h4{
+  font-size: 16px;
+}
+
+.size{
+  width: 360px;
+}
+
+.copyright{
+  justify-content: center;
+  font-size: 12px;
+  padding: 20px;
+}
